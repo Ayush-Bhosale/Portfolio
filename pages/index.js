@@ -6,19 +6,22 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 
 
+
 export default function Home() {
   return (
     <div>
       <Head>
-        <title>Clint | Front-End Developer</title>
-        <meta name="description" content="I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences." />
-        <link rel="icon" href="/fav.png" />
+        <title>Ayush | Web Developer</title>
+        <meta name="description" content="I’m a web developer specializing in building (and occasionally designing) exceptional digital experiences." />
+        <link rel="icon" href="/Fav.png" />
       </Head>
+      
     <Main />
     <About />
     <Skills />
     <Projects />
     <Contact />
+
     </div>
   )
 }

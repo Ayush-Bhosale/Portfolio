@@ -6,10 +6,10 @@ const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Ayush | Resume</title>
         <meta
           name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          content='I’m a web developer specializing in building (and occasionally designing) exceptional digital experiences.'
         />
         <link rel='icon' href='/fav.png' />
       </Head>
@@ -17,17 +17,17 @@ const resume = () => {
       <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
         <h2 className='text-center'>Resume</h2>
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
+          <h2 className='text-center'>Ayush Bhosale</h2>
           <div className='flex'>
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
+              href='https://www.linkedin.com/in/ayush-bhosale-b56546250/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
             </a>
             <a
-              href='https://github.com/fireclint'
+              href='https://github.com/Ayush-Bhosale'
               target='_blank'
               rel='noreferrer'
             >
@@ -38,12 +38,15 @@ const resume = () => {
         <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
           <div className='hidden sm:block'>
             <p>
+            <span className='px-1'></span> Web Designing |
               Proven Leadership <span className='px-1'>|</span> Web Development{' '}
+
               <span className='px-1'>|</span> Complex Problem Solving
             </p>
           </div>
           <div className='block sm:hidden'>
             <p>Proven Leadership</p>
+            <p>Web Designing</p>
             <p className='py-2'>Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
@@ -64,24 +67,37 @@ const resume = () => {
         <div className='text-center py-4'>
           <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
           <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
+            <span className='font-bold'>Frontend Technologies</span>
+            <span className='font-bold'></span>
+            <span className='px-2'>|</span>HTML
             <span className='px-2'>|</span>CSS
             <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
+            <span className='px-2'>|</span>React JS
             <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
+            <span className='px-2'>|</span>Bootstrap
+            <span className='px-2'>|</span>Sass
             <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            <span className='px-2'>|</span>Tailwind CSS
           </p>
           <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+            <span className='font-bold'>Backend Technologies</span>
+            <span className='font-bold'></span>
+            <span className='px-2'>|</span>Node Js
+            <span className='px-2'>|</span>Express Js
+            <span className='px-2'>|</span>Mongo DB
+            <span className='px-2'>|</span>Mongoose
+            <span className='px-2'>|</span>OAuth
+            <span className='px-2'>|</span>REST API
+            <span className='px-2'>|</span>Firebase
+            <span className='px-2'>|</span>SQL
+            <span className='px-2'>|</span>MySQL
+          </p>
+
+          <p className='py-2'>
+            <span className='font-bold'>Web Designing</span>
+            <span className='font-bold'></span>
+            <span className='px-2'>|</span>Figma
+            <span className='px-2'>|</span>Canva
           </p>
         </div>
 
@@ -92,11 +108,10 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-            INFINITE TECH
+            Fresher
             </span>
-            <span className='px-2'>|</span>Dallas, TX
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
+          <p className='py-1 italic'> Web Developer & Web Master (2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
               Ensured comprehensive mobile responsive UI layouts with
@@ -107,12 +122,9 @@ const resume = () => {
               plugins, and design changes as needed.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
+              Currently Worked with Bluespace Org As freelancer Frontend
+               directly with a diverse client base to understand and
               implement multiple technologies and programs.
-            </li>
-            <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
             </li>
           </ul>
         </div>
@@ -122,66 +134,106 @@ const resume = () => {
         <div className='py-6'>
           <p className='italic'>
             <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
+            Acedamic Projects
             </span>
-            <span className='px-2'>|</span>Dallas, TX
+            <span className='px-2'>(Ayush | 2021-current*)</span>
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
-            </li>
-            <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
-            </li>
+        <li>  Freelance Project 
+             BlueSpace Org for IT Projects Development
+             Collaborated with a team of 3 friends
+             October 2023 - December 2023 
+             Designed and developed an organizational website using the MERN stack
+             Implemented responsive design principles for optimal user experience
+             Utilized MongoDB, Express.js, React, and Node.js for seamless functionality
+             Conducted regular meetings with peer members, assigned tasks, and ensured project milestones!
+        </li>
+        <li>
+Projects 
+Promtopia Fullstack Application :
+- Developed a full-stack application using the MERN stack for a promotional platform.
+</li>
+<li>AnimeHub Next.js Frontend :
+- Created the FrontEnd using Next.js for an anime streaming platform, focusing on speed and interactivity with frame motion smooth scroll.
+</li>
+<li>
+ModernBankPayment  Frontend :
+- Designed and developed the front-end interface for a payment application, emphasizing user-friendly design and secure transactional flows.
+</li>
+<li>
+E-commerce  Frontend :
+- Contributed to the front-end development of an e-commerce platform, emphasizing UI/UX enhancements and product display features.
+</li>
+<li>
+UI Designs :
+-Nike landing page UI
+-Shoes landing page UI 
+</li>
+          
           </ul>
         </div>
 
         {/*  */}
         <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
+          Other  Experience
         </h5>
       
         {/* Experience */}
         <div className='py-6'>
           <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
+            <span className='font-bold'>Extracurricular Activities </span>
+            <span className='px-2'></span>
           </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
+          <p className='py-1 italic'> CoduxAyush/ Ayush </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
+            
+            Volunteer Work :-
+            IT Fest Project Coordinator -
+            Magazine Work during College Fest 2022-23 Contributed 
+            to editing and content creation for the college magazine 
+            during the fest College IT Fest Designing and Editing Role Played 
+            a key role in designing and editing materials for the college IT fest Science Club
+            ChatGPT Session Newsletter Contributed to creating and editing newsletters for the Science Club's ChatGPT 
+            sessions
+
             </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
+
+            <li>Science Exhibtion Chatgpt Banner</li>
+            <li>ChatGPT Session Newsletter</li>
+            <li>IT Fest Chm Banner</li>
+            <li>Chandiutsav College fest Magazine</li>
           </ul>
         </div>
+
+        {/* Quality */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Qualities</span>
+            <span className='px-2'></span>
+          </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Quick Learner</li>
+            <li>Good Listener</li>
+            <li>Consistent</li>
+            <li>Punctual</li>
+          </ul>
+        </div>
+
+        {/* Hobbies */}
+        <div className='py-6'>
+          <p className='italic'>
+            <span className='font-bold'>Hobbies</span>
+            <span className='px-2'></span>
+          </p>
+          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+            <li>Sports</li>
+            <li>Perfectioning Things</li>
+            <li>Editing & Animation stuff</li>
+            <li>Music</li>
+          </ul>
+        </div>
+
       </div>
     </>
   );

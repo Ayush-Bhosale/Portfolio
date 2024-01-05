@@ -1,10 +1,10 @@
 import Image from 'next/image';
 import React from 'react';
-import cryptoImg from '../public/assets/projects/crypto.jpg';
+import PromptImg from "../public/assets/projects/Promptopia.png";
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const crypto = () => {
+const promtopia = () => {
   return (
     <div className='w-full'>
       <div className='w-screen h-[50vh] relative'>
@@ -13,12 +13,12 @@ const crypto = () => {
           className='absolute z-1'
           layout='fill'
           objectFit='cover'
-          src={cryptoImg}
+          src={PromptImg}
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Crypto App</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className='py-2'>Promtopia Fullstack Application </h2>
+          <h3>Next JS / Node JS / Express JS / Tailwind CSS / MongoDB / OAuth </h3>
         </div>
       </div>
 
@@ -27,25 +27,18 @@ const crypto = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            I built this app to demonstrate knowledge working in React JS and
-            accessing API endpoints. This app was built using React JS and is
-            hosted on Firebase. This application supports user authentication
-            using firebase. Users are able to create a new account using their
-            email address and can then sign in to save coins to a user specific
-            list. This is made possble by creating a firestore cloud storage
-            database at the time of user registration. Another feature of this
-            application is dynamic routing through the &quot;React Router DOM&quot;
-            package. This application was built using the Coin Gecko API.
+          This application was developed using NEXT.JS, incorporating Tailwind CSS for styling and is statically hosted on Vercel. It boasts robust user authentication capabilities via OAuth. Users can effortlessly create a new account utilizing their email address linked to their Google account, subsequently accessing various functionalities like creating, searching, and deleting posts through CRUD operations.
+The implementation of OAuth involves leveraging Google Cloud Storage during user registration, seamlessly integrating with a MongoDB database. Notably, it's mobile-responsive and packed with numerous features from Next/Auth.js, offering a secure and versatile authentication system. Through built-in routing and Next/Auth Context, users have the option to authenticate via their Google accounts using OAuth.
           </p>
           <a
-            href='https://github.com/fireclint/crypto-react-firebase'
+            href='https://github.com/Ayush-Bhosale/Next13-Promptopia'
             target='_blank'
             rel='noreferrer'
           >
             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
           </a>
           <a
-            href='https://cryptobase-yt.web.app/'
+            href='https://promtopia-five.vercel.app/'
             target='_blank'
             rel='noreferrer'
           >
@@ -58,22 +51,16 @@ const crypto = () => {
             <p className='text-center font-bold pb-2'>Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1 '>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> React
+                <RiRadioButtonFill className='pr-1' /> Next JS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Tailwind
+                <RiRadioButtonFill className='pr-1' /> Tailwind CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Javascript
+                <RiRadioButtonFill className='pr-1' /> MongoDb
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Firebase
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Coin Gecko API
-              </p>
-              <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Routes
+                <RiRadioButtonFill className='pr-1' /> OAuth
               </p>
             </div>
           </div>
@@ -86,4 +73,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default promtopia;
