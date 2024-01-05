@@ -27,18 +27,21 @@ const promtopia = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This application supports user authentication
-            using OAuth. Users are able to create a new account using their
-            email address through google account and can then sign in 
-            can create post or search delete crud operations.
-            This is made possble by creating a oAuth google cloud storage
-            Mongo db database at the time of user registration. 
-            This is a mobile responsive and has lot of features of
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with as Google account with the help of OAuth
-            built in routing, and Next/Auth Context.
+          <p>
+  This application was built using NEXT.JS and is styled with
+  Tailwind CSS. The application is hosted statically using Vercel.
+  This application supports user authentication
+  using OAuth. Users are able to create a new account using their
+  email address through a Google account and can then sign in 
+  to create, search, and delete CRUD operations.
+  This is made possible by creating an OAuth Google Cloud Storage
+  MongoDB database at the time of user registration. 
+  This is mobile responsive and has a lot of features from
+  Next/Auth.js for authentication. Users may choose to be
+  authenticated with a Google account with the help of OAuth
+  built-in routing and Next/Auth Context.
+</p>
+
           </p>
           <a
             href='https://github.com/Ayush-Bhosale/Next13-Promptopia'

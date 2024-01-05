@@ -13,24 +13,24 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-i specialize in building web and mobile tablet responsive modern web applications that connect with api’s and other backend technologies.
-i’m passionate about learning new technologies and understand there is more than one way to accomplish a task. though i also have proficient knowledge on  ui/ux designing i do alot web designing but developing is more fun in building full stack web applications using html, css, javascript, and react js , tailwindcss , next js , mongodb ,nodejs , express js etc...
-i am a quick learner and can pick up new tech stacks as needed. i believe that being a great developer is not using one specific language, but choosing the best tool for the job.
-it is an incredible journey ! when i began my web development journey in 2021 while managing my graduation studies, 
-i felt completely lost initially. 
-i still remember the shock of not knowing how to center a div when i started out! 
-however, as my second year rolled around, things began to click.
-i dedicated time to learning the ropes of web development, starting with basic html
-and gradually progressing to more advanced frameworks like nextjs.
-basically quite a ride since then  i have proudly crafted over 30 projects from scratch,
-each adding to my experience and expertise.during my spare moments,
-i immerse myself in extensive online research, 
-exploring upcoming and cutting-edge technologies in the market. 
-additionally, i used to run a youtube channel where i do showcase my 
-editing skills and share various interests and discoveries.
-my passion for work knows no bounds-
-i love diving into projects with enthusiasm and a drive to create something exceptional."
-          </p>
+  I specialize in building web and mobile tablet responsive modern web applications that connect with API’s and other backend technologies.
+  I’m passionate about learning new technologies and understand there is more than one way to accomplish a task. Though I also have proficient knowledge on  UI/UX designing, I do a lot of web designing, but developing is more fun in building full stack web applications using HTML, CSS, JavaScript, and React JS, Tailwind CSS, Next JS, MongoDB, Node.js, Express JS, etc...
+  I am a quick learner and can pick up new tech stacks as needed. I believe that being a great developer is not using one specific language, but choosing the best tool for the job.
+  It has been an incredible journey! When I began my web development journey in 2021 while managing my graduation studies, 
+  I felt completely lost initially. 
+  I still remember the shock of not knowing how to center a div when I started out! 
+  However, as my second year rolled around, things began to click.
+  I dedicated time to learning the ropes of web development, starting with basic HTML
+  and gradually progressing to more advanced frameworks like Next.js.
+  Basically, quite a ride since then—I have proudly crafted over 30 projects from scratch,
+  each adding to my experience and expertise. During my spare moments,
+  I immerse myself in extensive online research, 
+  exploring upcoming and cutting-edge technologies in the market. 
+  Additionally, I used to run a YouTube channel where I do showcase my 
+  editing skills and share various interests and discoveries.
+  My passion for work knows no bounds. 
+  I love diving into projects with enthusiasm and a drive to create something exceptional.
+</p>
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer'>
               Check out some of my projects.
