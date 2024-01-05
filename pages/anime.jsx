@@ -1,7 +1,6 @@
-"use client"
 import Image from 'next/image';
 import React from 'react';
-import  AnimeImg from "../public/assets/projects/Animeverse.png";
+import AnimeImg from '../public/assets/projects/Animeverse.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -28,10 +27,7 @@ const anime = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          <p>
-  "I developed an application using Next js, and it is currently hosted on both GitHub Pages and Vercel. This app serves up comprehensive details about different anime including their IMDb ratings and the specific episodes or seasons they encompass. To enrich its functionality, I integrated it with the Shikimori API. One of the key features that set this app apart is its utilization of Frame Motion. This technology plays a pivotal role in rendering the content server-side, enabling smooth animations and buffering to ensure seamless scrolling. The use of Frame Motion has significantly enhanced the app performance, eliminating any potential lags or disruptions in the user experience"
-</p>
-
+            {"I developed an application using Next js, and it is currently hosted on both GitHub Pages and Vercel. This app serves up comprehensive details about different anime including their IMDb ratings and the specific episodes or seasons they encompass. To enrich its functionality, I integrated it with the Shikimori API. One of the key features that set this app apart is its utilization of Frame Motion. This technology plays a pivotal role in rendering the content server-side, enabling smooth animations and buffering to ensure seamless scrolling. The use of Frame Motion has significantly enhanced the app performance, eliminating any potential lags or disruptions in the user experience"}
           </p>
           <a
             href='https://github.com/Ayush-Bhosale/AnimeHubbb'
@@ -62,7 +58,7 @@ const anime = () => {
                 <RiRadioButtonFill className='pr-1' /> Frame Motion
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Infinte & Seamless scrolling
+                <RiRadioButtonFill className='pr-1' /> Infinte &amp; Seamless scrolling
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> IMDB ANIME
@@ -79,3 +75,4 @@ const anime = () => {
 };
 
 export default anime;
+
