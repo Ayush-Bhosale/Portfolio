@@ -28,9 +28,15 @@ const anime = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-          I developed an application using Next.js, and it's currently hosted on both GitHub Pages and Vercel. This app serves up comprehensive details about different anime, including their IMDb ratings and the specific episodes or seasons they encompass. To enrich its functionality, I integrated it with the Shikimori API.
-
-One of the key features that set this app apart is its utilization of Frame Motion. This technology plays a pivotal role in rendering the content server-side, enabling smooth animations and buffering to ensure seamless scrolling. The use of Frame Motion has significantly enhanced the app's performance, eliminating any potential lags or disruptions in the user experience.
+          I developed an application using Next js,
+          and it is currently hosted on both GitHub Pages and Vercel.
+          This app serves up comprehensive details about different anime
+          including their IMDb ratings and the specific episodes or seasons they encompass. 
+          To enrich its functionality. integrated it with the Shikimori API. One of the key features that set this app apart is its utilization
+          of Frame Motion. This technology plays a pivotal role in rendering the content server-side,
+          enabling smooth animations and buffering to ensure seamless scrolling. 
+          The use of Frame Motion has significantly enhanced the app performance, 
+          eliminating any potential lags or disruptions in the user experience.
           </p>
           <a
             href='https://github.com/Ayush-Bhosale/AnimeHubbb'

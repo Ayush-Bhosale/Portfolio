@@ -26,12 +26,9 @@ const crypto = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-          I created this application to showcase my proficiency in React JS with Vite, 
-          leveraging its exceptional speed in running and compiling code. 
-          Hosted on Vercel, this app boasts a modern, user-friendly interface 
-          facilitating easy access to modern payment methods through smooth and captivating animations. 
-          It's a modern React JS landing page designed for a seamless user experience.
+          <p> 
+          I designed and developed this application to showcase my expertise in React JS + Vite. It's currently hosted on Vercel, offering a modern and intuitive user interface. The focus here is on providing users with access to modern payment methods, employing smooth and engaging animations.
+This application's architecture relies on React JS and Vite JS, enabling the creation of a contemporary landing page with a sleek display and seamless user experience.
           </p>
           <a
             href='https://github.com/Ayush-Bhosale/Modern-Payment-App'

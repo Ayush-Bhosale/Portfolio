@@ -190,13 +190,12 @@ UI Designs :
             
             Volunteer Work :-
             IT Fest Project Coordinator -
-            Magazine Work during College Fest 2022-23 Contributed 
-            to editing and content creation for the college magazine 
-            during the fest College IT Fest Designing and Editing Role Played 
-            a key role in designing and editing materials for the college IT fest Science Club
-            ChatGPT Session Newsletter Contributed to creating and editing newsletters for the Science Club's ChatGPT 
-            sessions
-
+            magazine work during college fest 2022-23 contributed to editing and content creation for the college 
+            magazine during the fest college IT fest designing and editing role 
+            played a key role in designing and editing materials 
+            for the college IT fest science club chatGPT session newsletter
+             contributed to creating and editing 
+            newsletters for the science club ChatGPT sessions
             </li>
 
             <li>Science Exhibtion Chatgpt Banner</li>
