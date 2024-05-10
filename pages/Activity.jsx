@@ -17,7 +17,7 @@ const Activity = () => {
           alt='/'
         />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
-          <h2 className='py-2'>Extracurricular Activites </h2>
+        <h2>Extracurricular Activities</h2>
           <h3>  Editing / Newsletter / Flyers / Videos / PPT'S </h3>
         </div>
       </div>
@@ -50,10 +50,10 @@ const Activity = () => {
             <p className='text-center font-bold pb-2'>Creativity</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Canva & Figma
+                <RiRadioButtonFill className='pr-1' /> Canva  &amp;  Figma
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
-                <RiRadioButtonFill className='pr-1' /> Capcut / Flimora
+                <RiRadioButtonFill className='pr-1' /> Capcut  &amp;  Flimora
               </p>
               <p className='text-gray-600 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Edits

@@ -145,7 +145,7 @@ const resume = () => {
             but relevel is on localhost.I built this application in Next JS and is hosted on Vercel.
             This app features user authentication with OTP & Gmail Verification
             platform allows users to create profiles, upload their work, 
-            manage transactions, and potentially participate in Relevel's quiz app. 
+            manage transactions, and potentially participate in Relevel quiz app. 
             our aim was to attract big players to our platform just like instagram, x, facebook, etc. 
         </li>
         <li>  Freelance Project 
