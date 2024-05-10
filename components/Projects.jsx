@@ -8,6 +8,8 @@ import ShopImg from "../public/assets/projects/Ecommerce.png";
 import ProjectItem from './ProjectItem';
 import ShoeUiImg from "../public/assets/projects/Shoe.png";
 import GameUiImg from "../public/assets/projects/Console.png";
+import FlexagramImg from "../public/assets/projects/Home.png";
+import ActivityImg from "../public/assets/projects/Activites.png";
 
 const Projects = () => {
   return(
@@ -19,7 +21,21 @@ const Projects = () => {
         <h2 className='py-4'>What I Have Bulit</h2>
         <div className='grid md:grid-cols-2 gap-8'>
 
-      
+        
+        <ProjectItem 
+        title="Flexagram"
+        backgroundImg={FlexagramImg} 
+        projectUrl='/flexagram'
+        tech="Next JS" 
+        />
+
+       <ProjectItem 
+        title="Promotpia"
+        backgroundImg={PromptImg} 
+        projectUrl='/promtopia' 
+        tech="Next JS"
+        />
+
         <ProjectItem 
         title=" AnimeHubb"
         backgroundImg={AnimeImg} 
@@ -32,13 +48,6 @@ const Projects = () => {
         backgroundImg={BankImg} 
         projectUrl='/payment'
         tech=" React JS" 
-        />
-
-       <ProjectItem 
-        title="Promotpia"
-        backgroundImg={PromptImg} 
-        projectUrl='/promtopia' 
-        tech="Next JS"
         />
 
         <ProjectItem 
@@ -60,6 +69,13 @@ const Projects = () => {
         backgroundImg={GameUiImg} 
         projectUrl='/gaming'
         tech ="User Interface"
+        />
+
+       <ProjectItem 
+        title ="Extracurricular Activites"
+        backgroundImg={ActivityImg} 
+        projectUrl='/Activity'
+        tech ="Other Activites"
         />
 
         </div>

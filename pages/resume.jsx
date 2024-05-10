@@ -76,7 +76,7 @@ const resume = () => {
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>Bootstrap
             <span className='px-2'>|</span>Sass
-            <span className='px-2'>|</span>Redux
+            <span className='px-2'>|</span>Clerk
             <span className='px-2'>|</span>Tailwind CSS
           </p>
           <p className='py-2'>
@@ -122,7 +122,7 @@ const resume = () => {
               plugins, and design changes as needed.
             </li>
             <li>
-              Currently Worked with Bluespace Org As freelancer Frontend
+              Currently Worked with Bluespace Org 3 friends team collbrated to work as freelancer Frontend
                directly with a diverse client base to understand and
               implement multiple technologies and programs.
             </li>
@@ -139,6 +139,15 @@ const resume = () => {
             <span className='px-2'>(Ayush | 2021-current*)</span>
           </p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <li>  Flexagram : Freelancing And Relevel Social media Project 
+            So basically Flexagram is my final year project which is combination
+            of Freelaning + Relevel Platform Freelancing Platform is currently hosted 
+            but relevel is on localhost.I built this application in Next JS and is hosted on Vercel.
+            This app features user authentication with OTP & Gmail Verification
+            platform allows users to create profiles, upload their work, 
+            manage transactions, and potentially participate in Relevel's quiz app. 
+            our aim was to attract big players to our platform just like instagram, x, facebook, etc. 
+        </li>
         <li>  Freelance Project 
              BlueSpace Org for IT Projects Development
              Collaborated with a team of 3 friends

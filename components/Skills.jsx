@@ -20,7 +20,7 @@ import git from "../public/assets/skills/Git.png";
 import mysql from "../public/assets/skills/MySQL.png"
 const Skills = () => {
   return (
-    <div id='skills' className='w-full lg:h-screen p-2 mt-10'>
+    <div id='skills' className='w-full lg:h-screen p-2 mt-14'>
       <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
         <p className='text-xl tracking-widest font-bold uppercase text-[#4db9e3]'>
           Skills
